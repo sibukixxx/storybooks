@@ -9,7 +9,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "storybook": "start-storybook -p 9001 -c .storybook",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -c .storybook -o public"
   },
   "dependencies": {
     "vue": "^2.5.11"
