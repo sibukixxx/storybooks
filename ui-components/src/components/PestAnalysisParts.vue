@@ -26,7 +26,7 @@
     display: flex;
     margin-bottom: 10px;
     &-title {
-      width: 10%;
+      width: 15%;
       margin: 0 10px 0 0;
       border: black 1px solid;
       text-align: center;
@@ -37,20 +37,23 @@
         position: relative;
         vertical-align: middle;
         line-height: normal;
-        top: calc(50% - 12px);
-        left: calc(50% - 55px);
+        top: calc(50% - 15px);
+        left: calc(50% - 80px);
+        font-size: 100%;
+        font-weight: bold;
       }
     }
     &-contents {
       height:100%;
       width: 80%;
+      min-height: 33px;
       border: black 1px solid;
       background-color: black;
       > div {
         color: white;
         margin-left: 5px;
         display: inline-block;
-        vertical-align: middle;
+        vertical-align: text-top;
         line-height: normal;
 
       }
