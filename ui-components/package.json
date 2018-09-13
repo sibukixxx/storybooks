@@ -12,6 +12,7 @@
     "build-storybook": "build-storybook -c .storybook -o public"
   },
   "dependencies": {
+    "@json-spec/root": "github:kawasima/json-spec",
     "vue": "^2.5.11"
   },
   "browserslist": [

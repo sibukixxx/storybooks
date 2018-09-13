@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@json-spec/root@github:kawasima/json-spec":
+  version "0.1.0-SNAPSHOT"
+  resolved "https://codeload.github.com/kawasima/json-spec/tar.gz/fe0ac2d287945c2b29c9ae9719444240c514975d"
+
 "@storybook/addon-backgrounds@^3.4.10":
   version "3.4.10"
   resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-3.4.10.tgz#89b4da0dabd125b037353b72dc8ca5183012b39c"
